@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import imagetest from './img/bola.jpg';
 import './App.css';
 
 function App() {
+
+  const reqApi = () => {
+    console.log('clicking')
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h2 className="title">Images</h2>
+        <img src={imagetest} alt="image" className="img-home" />
+        <button onClick={reqApi} className="btn-search">buscar</button>
       </header>
     </div>
   );
