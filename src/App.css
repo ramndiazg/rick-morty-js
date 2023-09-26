@@ -135,6 +135,12 @@ body {
   color: #9e9e9e;
 }
 
+.gender {
+  font-size: small;
+  text-transform:lowercase;
+  color: rgb(55, 210, 58);
+}
+
 .back-home {
   text-decoration: underline;
   cursor: pointer;
